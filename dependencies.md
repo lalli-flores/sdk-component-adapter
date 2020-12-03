@@ -10,6 +10,7 @@ This guide describes the dependencies of this repository and their purpose.
   - [Dotenv](#dotenv)
   - [ESLint](#eslint)
   - [Husky](#husky)
+  - [Jest](#jest)
   - [nodemon](#nodemon)
   - [semantic-release](#semantic-release)
 
@@ -74,6 +75,24 @@ Dotenv is a zero-dependency module that loads environment variables from a `.env
 
 [Husky](https://github.com/typicode/husky#husky) simplifies running scripts in
 [Git hooks](https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks).
+
+### Jest
+
+[Jest](https://jestjs.io) is a testing framework and runner. Used for unit tests.
+We also use Jest in conjunction with [puppeteer](https://pptr.dev/) to do end-to-end tests.
+
+#### Jest Packages
+
+- [jest](https://www.npmjs.com/package/jest): Jest core package
+- [jest-junit](https://www.npmjs.com/package/jest-junit):
+  Plugin that allows for JUnit-style reporting
+- [jest-puppeteer](https://www.npmjs.com/package/jest-puppeteer):
+  Pre-set configuration to run puppeteer within Jest
+
+#### Puppeteer Packages
+
+- [puppeteer](https://www.npmjs.com/package/puppeteer):
+  High-level API to control Chromium (Chrome browser) over the DevTools protocol.
 
 ### nodemon
 
