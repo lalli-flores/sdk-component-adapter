@@ -28,12 +28,12 @@
   "author": "devsupport@webex.com",
   "license": "MIT",
   "peerDependencies": {
+    "@babel/runtime": "^7.12.5",
+    "@webex/common": "1.108.0",
+    "@webex/components": "^1.45.4",
+    "@webex/component-adapter-interfaces": "^1.11.0",
     "rxjs": "^6.5.4",
-    "webex": "^1.92.0"
-  },
-  "dependencies": {
-    "@webex/common": "^1.105.0",
-    "@webex/component-adapter-interfaces": "^1.11.0"
+    "webex": "^1.108.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.3",
