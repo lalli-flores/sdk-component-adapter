@@ -12,6 +12,7 @@ This guide describes the dependencies of this repository and their purpose.
   - [Husky](#husky)
   - [Jest](#jest)
   - [nodemon](#nodemon)
+  - [Rollup](#rollup)
   - [semantic-release](#semantic-release)
 
 ### Babel
@@ -103,6 +104,21 @@ automatically restarting the node application when file changes in the directory
 
 - [nodemon](https://www.npmjs.com/package/nodemon):
   CLI core package
+
+### Rollup
+
+[Rollup](https://rollupjs.org) is a JavaScript module bundler.
+
+#### Rollup Packages
+
+- [rollup](https://www.npmjs.com/package/rollup): Rollup core package
+  [Node resolution algorithm](https://nodejs.org/api/modules.html#modules_all_together)
+- [rollup-plugin-license](https://www.npmjs.com/package/rollup-plugin-license):
+  Plugin that prepends legal information to distribution bundles
+- [rollup-plugin-terser](https://www.npmjs.com/package/rollup-plugin-terser):
+  Plugin to create minified bundles
+- [rollup-plugin-visualizer](https://www.npmjs.com/package/rollup-plugin-visualizer):
+  Plugin that creates visualizations of the bundle composition
 
 ### Semantic Release
 
